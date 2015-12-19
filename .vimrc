@@ -1,4 +1,4 @@
-" Mathew Hawley  MacVim
+" Mathew Hawley MacVim
 
 " {{{ Plugins
 
