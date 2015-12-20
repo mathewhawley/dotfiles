@@ -11,18 +11,6 @@ export EDITOR="MacVim"
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias simple="python -m SimpleHTTPServer 3000"
 
-# git
-alias ga="git add"
-alias gs="git status"
-alias gd="git diff"
-alias gds="git diff --staged"
-alias gco="git checkout"
-alias gcob="git checkout -b"
-alias gpl="git pull"
-alias glf="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-alias gsp="git stash pop"
-alias gcmt='git commit -m'
-
 # vagrant
 alias vgs="vagrant ssh"
 
@@ -32,7 +20,7 @@ alias v="open -a 'MacVim'"
 
 # dotfiles
 alias dtf="cd ~/.dotfiles"
-alias zshc="v ~/.zshrc"
+alias zshc="v ~/.dotfiles/.zshrc"
 alias omz="v ~/.oh-my-zsh"
 alias vrc="v ~/.dotfiles/.vimrc"
 

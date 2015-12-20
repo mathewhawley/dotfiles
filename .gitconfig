@@ -1,0 +1,25 @@
+[user]
+	name = Mathew Hawley
+	email = mathew@mathewhawley.com
+[core]
+	excludesfile = ~/.gitignore
+[alias]
+    a = add
+    s = status
+    c = commit -m
+    d = diff
+    ds = diff --staged
+    co = checkout
+    cob = checkout -b
+    pl = pull
+    ps = push
+    st = stash
+    sp = stash pop
+    b = branch
+    l = log
+    lf = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    rv = remote -v
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
