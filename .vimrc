@@ -1,4 +1,4 @@
-" Mathew Hawley MacVim
+" Mathew Hawley – MacVim
 
 " {{{ Plugins
 
@@ -43,7 +43,9 @@ set noerrorbells " no sound on error
 set novisualbell " no visual on error
 set hidden " switch between buffers without saving
 set autoread " automatically refresh changed files
-set directory^=$HOME/.vim/tmp// " store swap files in ~/.vim/tmp
+set directory^=$HOME/.vim/swaps// " store swap files in ~/.vim/swaps
+set backup^=$HOME/.vim/backups// " store backup files in ~/.vim/backups
+set undodir^=$HOME/.vim/undo// " store undo history in ~/.vim/undo
 
 " }}}
 " {{{ Colors, Fonts & Themes
