@@ -31,7 +31,7 @@ alias subl="open -a 'Sublime Text'"
 alias v="open -a 'MacVim'"
 
 # dotfiles
-alias df="cd ~/.dotfiles"
+alias dtf="cd ~/.dotfiles"
 alias zshc="v ~/.zshrc"
 alias omz="v ~/.oh-my-zsh"
 alias vrc="v ~/.dotfiles/.vimrc"
