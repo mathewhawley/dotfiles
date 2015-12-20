@@ -1,5 +1,5 @@
 [user]
-	name = Mathew Hawley
+    name = Mathew Hawley
     email = mathew@mathewhawley.com
 [core]
     excludesfile = ~/.gitignore
