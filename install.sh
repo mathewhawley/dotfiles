@@ -3,14 +3,23 @@ BASE=$(pwd)
 # get permissions
 sudo -v
 
+# make temp file directories for vim
+echo "Creating Vim temporary directories..."
+mkdir -pv ~/.vim/swaps ~/.vim/backups ~/.vim/undo
+echo "Done."
+
 # make backups
-mv -v ~/.vimrc ~/.vimrc-old
-mv -v ~/.zshrc ~/.zshrc-old
+echo "Backing up '.vimrc' and '.zshrc'..."
+cp -nv ~/.vimrc ~/.vimrc-old
+cp -nv ~/.zshrc ~/.zshrc-old
+echo "Done."
 
 # create symlinks
-ln -sf $BASE/.vimrc ~/.vimrc
-ln -sf $BASE/zsh/custom.zsh-theme ~/.oh-my-zsh/themes
-ln -sf $BASE/.zshrc ~/.zshrc
-ln -sf $BASE/.gitignore_global ~/.gitignore_global
-ln -sf $BASE/.gitconfig ~/.gitconfig
-ln -sf $BASE/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+echo "Creating symlinks..."
+ln -sfv $BASE/.vimrc ~/.vimrc
+ln -sfv $BASE/zsh/custom.zsh-theme ~/.oh-my-zsh/themes
+ln -sfv $BASE/.zshrc ~/.zshrc
+ln -sfv $BASE/.gitignore_global ~/.gitignore_global
+ln -sfv $BASE/.gitconfig ~/.gitconfig
+ln -sfv $BASE/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+echo "Done."
