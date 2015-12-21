@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 BASE=$(pwd)
 
 # get permissions

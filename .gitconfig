@@ -2,7 +2,9 @@
     name = Mathew Hawley
     email = mathew@mathewhawley.com
 [core]
-    excludesfile = ~/.gitignore
+    excludesfile = ~/.gitignore_global
+[include]
+    path = ~/.gitlocal
 [alias]
     a = add
     s = status
@@ -19,6 +21,8 @@
     l = log
     lf = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     rv = remote -v
+[push]
+    default = simple
 [filter "lfs"]
     clean = git-lfs clean %f
     smudge = git-lfs smudge %f

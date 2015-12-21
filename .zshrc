@@ -13,6 +13,8 @@ alias simple="python -m SimpleHTTPServer 3000"
 
 # vagrant
 alias vgs="vagrant ssh"
+alias vgu="vagrant up"
+alias vgh="vagrant halt"
 
 # editors
 alias subl="open -a 'Sublime Text'"
