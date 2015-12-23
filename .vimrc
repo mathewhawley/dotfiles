@@ -91,9 +91,10 @@ let g:gitgutter_sign_modified_removed='×'
 set tabstop=4 " number of spaces per TAB
 set softtabstop=4 " number of spaces of TAB when editing
 set expandtab " turn tabs into spaces
-set shiftwidth=4 " when indeding with '>' use 4 spaces
+set shiftwidth=4 " when indenting with '>' use 4 spaces
 set modelines=1 " modeline at bottom of this file
 set breakindent " wrapped lines adhere to indentation
+set backspace=indent,eol " allow backspace across indentation and lines
 
 function! <SID>StripTrailingWhitespaces()
     " Preparation: save last search, and cursor position.
