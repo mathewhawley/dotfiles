@@ -12,6 +12,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'wellle/visual-split.vim'
 
 " colours
 Plug 'akmassey/vim-codeschool'
@@ -22,6 +23,7 @@ Plug 'mustache/vim-mustache-handlebars'
 Plug 'tpope/vim-markdown'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'pangloss/vim-javascript'
+Plug 'othree/javascript-libraries-syntax.vim'
 
 " editing
 Plug 'tpope/vim-commentary'
@@ -125,6 +127,7 @@ filetype plugin indent on
 au BufRead,BufNewFile *.scss set filetype=scss.css
 au BufRead,BufNewFile *.json set filetype=javascript
 set omnifunc=syntaxcomplete#Complete " turn on omnicompletion
+let g:used_javascript_libs='jquery,handlebars,react,underscore' " js syntax libs to include
 
 " }}}
 " {{{ Folding & Splits
