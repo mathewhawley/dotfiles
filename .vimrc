@@ -24,6 +24,7 @@ Plug 'tpope/vim-markdown'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'pangloss/vim-javascript'
 Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'othree/html5.vim'
 
 " editing
 Plug 'tpope/vim-commentary'
