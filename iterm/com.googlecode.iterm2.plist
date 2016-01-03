@@ -1023,10 +1023,14 @@
 	<true/>
 	<key>MaxVertically</key>
 	<false/>
+	<key>NSColorPanelMode</key>
+	<string>6</string>
+	<key>NSFontPanelAttributes</key>
+	<string>1, 1</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents/Settings/dracula-theme-master/iterm</string>
+	<string>~</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{716, 481}</string>
+	<string>{712, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -1046,7 +1050,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>307</string>
+		<string>322</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -1057,18 +1061,16 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
-	<key>NSWindow Frame NSColorPanel</key>
-	<string>231 243 231 329 0 0 1440 877 </string>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>2198 -68 918 315 1440 -180 1920 1057 </string>
+	<string>355 215 693 294 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>279 406 606 456 0 0 1440 877 </string>
+	<string>426 404 606 456 0 0 1440 877 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1 2 1438 875 0 0 1440 877 </string>
+	<string>0 0 1399 877 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 0 1400 877 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>1950 -180 1410 1057 1440 -180 1920 1057 </string>
+	<string>0 0 1399 877 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2561,20 +2563,14 @@
 			<string>/Users/Mathew</string>
 		</dict>
 	</array>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
-	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>1</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
-	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
-	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>470310758.84385097</real>
+	<real>470345736.80887097</real>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>456072044.43517703</real>
+	<real>458991319.15855199</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>470310217.72910899</real>
+	<real>470345567.28653699</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -2623,7 +2619,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Volumes/Data/Users/mathawle/Documents/Settings/iTerm2</string>
+	<string>/Users/Mathew/.dotfiles/iterm/</string>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -2632,8 +2628,6 @@
 	<integer>8</integer>
 	<key>RightOption</key>
 	<integer>3</integer>
-	<key>SUAutomaticallyUpdate</key>
-	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -2643,7 +2637,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-12-17T13:53:01Z</date>
+	<date>2015-12-29T14:17:22Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -2666,6 +2660,8 @@
 	<integer>10</integer>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1449093632</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
@@ -2690,11 +2686,11 @@
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>875</real>
+				<real>877</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
-				<true/>
+				<false/>
 				<key>Is Hotkey Window</key>
 				<false/>
 				<key>Saved Window Type</key>
@@ -2985,7 +2981,7 @@
 											<key>Hide After Opening</key>
 											<false/>
 											<key>Horizontal Spacing</key>
-											<real>0.89999997615814209</real>
+											<real>0.90000000000000002</real>
 											<key>Idle Code</key>
 											<integer>0</integer>
 											<key>Initial Text</key>
@@ -3302,7 +3298,7 @@
 											<key>Name</key>
 											<string>Mathew</string>
 											<key>Non Ascii Font</key>
-											<string>LiterationMonoPowerline 15</string>
+											<string>RobotoMonoForPowerline-Light 12</string>
 											<key>Non-ASCII Anti Aliased</key>
 											<true/>
 											<key>Normal Font</key>
@@ -3357,7 +3353,7 @@
 											<key>Shortcut</key>
 											<string></string>
 											<key>Silence Bell</key>
-											<false/>
+											<true/>
 											<key>Smart Cursor Color</key>
 											<true/>
 											<key>Smart Selection Rules</key>
@@ -3472,7 +3468,7 @@
 											<key>Use Italic Font</key>
 											<true/>
 											<key>Vertical Spacing</key>
-											<real>1.0466985128012047</real>
+											<real>1</real>
 											<key>Visual Bell</key>
 											<true/>
 											<key>Window Type</key>
@@ -3483,17 +3479,19 @@
 										<key>Bookmark Name</key>
 										<string>Mathew</string>
 										<key>Columns</key>
-										<integer>204</integer>
+										<integer>198</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Volumes/Data/Users/mathawle</string>
+											<string>/Users/Mathew</string>
+											<string>/Users/Mathew</string>
+											<string>/Users/Mathew</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Volumes/Data/Users/mathawle</string>
+											<string>/Users/Mathew</string>
 										</dict>
 										<key>Hosts</key>
 										<array/>
@@ -3502,37 +3500,37 @@
 										<key>Program</key>
 										<dict>
 											<key>Command</key>
-											<string>login -fp "mathawle"</string>
+											<string>login -fp "Mathew"</string>
 											<key>Type</key>
 											<string>Command</string>
 										</dict>
 										<key>Rows</key>
-										<integer>26</integer>
+										<integer>28</integer>
 										<key>Server PID</key>
-										<integer>51881</integer>
+										<integer>67529</integer>
 										<key>Session Default Name</key>
 										<string>Mathew</string>
 										<key>Session GUID</key>
-										<string>C883552D-8811-4B2F-A568-283FFD89922E</string>
+										<string>6686B7B7-7E66-4B90-8AD5-4F74FCEA25BF</string>
 										<key>Session Name</key>
 										<string>~</string>
 										<key>Session Window Title</key>
-										<string>mathawle@GBLONLBI0679: ~</string>
+										<string>Mathew@Mathews-MacBook-Pro: ~</string>
 										<key>Shell Integration Ever Used</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Volumes/Data/Users/mathawle</string>
+										<string>/Users/Mathew</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>425.5</real>
+										<real>426.5</real>
 										<key>width</key>
-										<real>1438</real>
+										<real>1399</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -3817,7 +3815,7 @@
 													<key>Hide After Opening</key>
 													<false/>
 													<key>Horizontal Spacing</key>
-													<real>0.89999997615814209</real>
+													<real>0.90000000000000002</real>
 													<key>Idle Code</key>
 													<integer>0</integer>
 													<key>Initial Text</key>
@@ -4134,7 +4132,7 @@
 													<key>Name</key>
 													<string>Mathew</string>
 													<key>Non Ascii Font</key>
-													<string>LiterationMonoPowerline 15</string>
+													<string>RobotoMonoForPowerline-Light 12</string>
 													<key>Non-ASCII Anti Aliased</key>
 													<true/>
 													<key>Normal Font</key>
@@ -4189,7 +4187,7 @@
 													<key>Shortcut</key>
 													<string></string>
 													<key>Silence Bell</key>
-													<false/>
+													<true/>
 													<key>Smart Cursor Color</key>
 													<true/>
 													<key>Smart Selection Rules</key>
@@ -4304,7 +4302,7 @@
 													<key>Use Italic Font</key>
 													<true/>
 													<key>Vertical Spacing</key>
-													<real>1.0466985128012047</real>
+													<real>1</real>
 													<key>Visual Bell</key>
 													<true/>
 													<key>Window Type</key>
@@ -4315,17 +4313,17 @@
 												<key>Bookmark Name</key>
 												<string>Mathew</string>
 												<key>Columns</key>
-												<integer>101</integer>
+												<integer>98</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
 												<array>
-													<string>/Volumes/Data/Users/mathawle</string>
+													<string>/Users/Mathew</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Volumes/Data/Users/mathawle</string>
+													<string>/Users/Mathew</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
@@ -4334,37 +4332,37 @@
 												<key>Program</key>
 												<dict>
 													<key>Command</key>
-													<string>login -fp "mathawle"</string>
+													<string>login -fp "Mathew"</string>
 													<key>Type</key>
 													<string>Command</string>
 												</dict>
 												<key>Rows</key>
-												<integer>26</integer>
+												<integer>28</integer>
 												<key>Server PID</key>
-												<integer>51990</integer>
+												<integer>67566</integer>
 												<key>Session Default Name</key>
 												<string>Mathew</string>
 												<key>Session GUID</key>
-												<string>11B57D99-23A3-42F5-BDA2-2AC0B666F2FB</string>
+												<string>9FEFBFD9-41F1-4236-A178-6282A1EDDE9D</string>
 												<key>Session Name</key>
 												<string>~</string>
 												<key>Session Window Title</key>
-												<string>mathawle@GBLONLBI0679: ~</string>
+												<string>Mathew@Mathews-MacBook-Pro: ~</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Volumes/Data/Users/mathawle</string>
+												<string>/Users/Mathew</string>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>425.5</real>
+												<real>426.5</real>
 												<key>width</key>
-												<real>718.5</real>
+												<real>699</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
@@ -4646,7 +4644,7 @@
 													<key>Hide After Opening</key>
 													<false/>
 													<key>Horizontal Spacing</key>
-													<real>0.89999997615814209</real>
+													<real>0.90000000000000002</real>
 													<key>Idle Code</key>
 													<integer>0</integer>
 													<key>Initial Text</key>
@@ -4963,7 +4961,7 @@
 													<key>Name</key>
 													<string>Mathew</string>
 													<key>Non Ascii Font</key>
-													<string>LiterationMonoPowerline 15</string>
+													<string>RobotoMonoForPowerline-Light 12</string>
 													<key>Non-ASCII Anti Aliased</key>
 													<true/>
 													<key>Normal Font</key>
@@ -5018,7 +5016,7 @@
 													<key>Shortcut</key>
 													<string></string>
 													<key>Silence Bell</key>
-													<false/>
+													<true/>
 													<key>Smart Cursor Color</key>
 													<true/>
 													<key>Smart Selection Rules</key>
@@ -5133,7 +5131,7 @@
 													<key>Use Italic Font</key>
 													<true/>
 													<key>Vertical Spacing</key>
-													<real>1.0466985128012047</real>
+													<real>1</real>
 													<key>Visual Bell</key>
 													<true/>
 													<key>Window Type</key>
@@ -5144,17 +5142,19 @@
 												<key>Bookmark Name</key>
 												<string>Mathew</string>
 												<key>Columns</key>
-												<integer>101</integer>
+												<integer>98</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
 												<array>
-													<string>/Volumes/Data/Users/mathawle</string>
+													<string>/Users/Mathew</string>
+													<string>/Users/Mathew</string>
+													<string>/Users/Mathew</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Volumes/Data/Users/mathawle</string>
+													<string>/Users/Mathew</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
@@ -5163,39 +5163,39 @@
 												<key>Program</key>
 												<dict>
 													<key>Command</key>
-													<string>login -fp "mathawle"</string>
+													<string>login -fp "Mathew"</string>
 													<key>Type</key>
 													<string>Command</string>
 												</dict>
 												<key>Rows</key>
-												<integer>26</integer>
+												<integer>28</integer>
 												<key>Server PID</key>
-												<integer>52017</integer>
+												<integer>67603</integer>
 												<key>Session Default Name</key>
 												<string>Mathew</string>
 												<key>Session GUID</key>
-												<string>549EFD8F-4A06-4C0F-B5D0-E9E2FCB632DE</string>
+												<string>32A9C316-E3E8-4634-9CE4-A091484AEFBF</string>
 												<key>Session Name</key>
 												<string>~</string>
 												<key>Session Window Title</key>
-												<string>mathawle@GBLONLBI0679: ~</string>
+												<string>Mathew@Mathews-MacBook-Pro: ~</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Volumes/Data/Users/mathawle</string>
+												<string>/Users/Mathew</string>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>425.5</real>
+												<real>426.5</real>
 												<key>width</key>
-												<real>718.5</real>
+												<real>699</real>
 												<key>x</key>
-												<real>719.5</real>
+												<real>700</real>
 												<key>y</key>
 												<real>0.0</real>
 											</dict>
@@ -5206,13 +5206,13 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>425.5</real>
+										<real>426.5</real>
 										<key>width</key>
-										<real>1438</real>
+										<real>1399</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
-										<real>426.5</real>
+										<real>427.5</real>
 									</dict>
 									<key>isVertical</key>
 									<true/>
@@ -5223,9 +5223,9 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>852</real>
+								<real>854</real>
 								<key>width</key>
-								<real>1438</real>
+								<real>1399</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -5237,15 +5237,15 @@
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
-				<string>pty-CD312E96-ADC8-4519-8A20-A552B189F1B9</string>
+				<string>pty-C1950809-D0CD-4EBC-8D32-6FDBD4CF5888</string>
 				<key>Width</key>
-				<real>1438</real>
+				<real>1399</real>
 				<key>Window Type</key>
 				<integer>0</integer>
 				<key>X Origin</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>Y Origin</key>
-				<real>1</real>
+				<real>0.0</real>
 			</dict>
 		</array>
 	</dict>

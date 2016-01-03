@@ -22,6 +22,8 @@
     lf = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     rv = remote -v
     cl = git clone
+[url "https://github.com/"]
+    insteadOf = gh:
 [push]
     default = simple
 [filter "lfs"]

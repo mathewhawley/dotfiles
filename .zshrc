@@ -3,11 +3,9 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 ZSH_THEME="custom"
 
-plugins=(git)
-
 export EDITOR="MacVim"
 
-# misc
+# general
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias simple="python -m SimpleHTTPServer 3000"
 
@@ -22,8 +20,8 @@ alias v="open -a 'MacVim'"
 
 # dotfiles
 alias dtf="cd ~/.dotfiles"
+alias omz="cd ~/.oh-my-zsh"
 alias zshc="v ~/.dotfiles/.zshrc"
-alias omz="v ~/.oh-my-zsh"
 alias vrc="v ~/.dotfiles/.vimrc"
 
 # node
@@ -33,5 +31,13 @@ alias nisd="npm install --save-dev"
 alias nig="npm install -g"
 alias nr="npm run"
 alias ns="npm start"
+alias nu="npm uninstall"
+
+# load nvm
+export NVM_DIR="/Users/Mathew/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+# load fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 source $ZSH/oh-my-zsh.sh
