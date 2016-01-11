@@ -5,23 +5,6 @@
     excludesfile = ~/.gitignore_global
 [include]
     path = ~/.gitlocal
-[alias]
-    a = add
-    s = status
-    c = commit -m
-    d = diff
-    ds = diff --staged
-    co = checkout
-    cob = checkout -b
-    pl = pull
-    ps = push
-    st = stash
-    sp = stash pop
-    b = branch
-    l = log
-    lf = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-    rv = remote -v
-    cl = git clone
 [url "https://github.com/"]
     insteadOf = gh:
 [push]

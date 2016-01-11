@@ -12,7 +12,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'wellle/visual-split.vim'
 
 " colours
 Plug 'akmassey/vim-codeschool'
@@ -95,7 +94,6 @@ set expandtab " turn tabs into spaces
 set shiftwidth=4 " when indenting with '>' use 4 spaces
 set modelines=1 " modeline at bottom of this file
 set breakindent " wrapped lines adhere to indentation
-set backspace=indent,eol " allow backspace across indentation and lines
 
 function! <SID>StripTrailingWhitespaces()
     " Preparation: save last search, and cursor position.
