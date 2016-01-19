@@ -15,6 +15,7 @@ Plug 'editorconfig/editorconfig-vim'
 
 " colours
 Plug 'akmassey/vim-codeschool'
+Plug 'kristijanhusak/vim-hybrid-material'
 
 " syntax
 Plug 'cakebaker/scss-syntax.vim'
@@ -55,7 +56,7 @@ set undodir^=$HOME/.vim/undo// " store undo history in ~/.vim/undo
 syntax enable
 set background=dark " dark background
 set t_Co=256 " 256 colors
-colorscheme codeschool
+colorscheme hybrid_material
 set guifont=Roboto\ Mono\ Light\ for\ Powerline:h11
 set linespace=1
 
@@ -164,6 +165,7 @@ let g:airline_powerline_fonts=1 " use powerline font
 let g:airline_symbols.linenr='␊'
 let g:airline_symbols.linenr='␤'
 let g:airline_symbols.whitespace='Ξ'
+let g:airline_theme="hybrid"
 
 " }}}
 " {{{ NERDTree

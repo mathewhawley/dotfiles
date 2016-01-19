@@ -17,6 +17,7 @@ source $ZSH/oh-my-zsh.sh
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias simple="python -m SimpleHTTPServer 3000"
 alias h="history"
+alias ngk="ngrok http"
 
 # git
 alias gco="git checkout"
