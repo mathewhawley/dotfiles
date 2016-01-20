@@ -24,4 +24,5 @@ ln -sfv $BASE/.zshrc ~/.zshrc
 ln -sfv $BASE/.gitignore_global ~/.gitignore_global
 ln -sfv $BASE/.gitconfig ~/.gitconfig
 ln -sfv $BASE/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+ln -sfv $BASE/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 echo "Done."
