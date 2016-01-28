@@ -19,6 +19,16 @@ alias simple="python -m SimpleHTTPServer 3000"
 alias h="history"
 alias ngk="ngrok http"
 
+#applications
+alias firefox="open -a firefox"
+alias safari="open -a safari"
+alias chrome="open -a google\ chrome"
+alias f="open -a Finder"
+alias sketch="open -a Sketch"
+alias canary="open -a google\ chrome\ canary"
+alias opera="open -a opera"
+alias sim="open -a Simulator"
+
 # git
 alias gco="git checkout"
 alias gcob="git checkout -b"
