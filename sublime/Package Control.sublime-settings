@@ -10,12 +10,12 @@
         "Emmet",
         "GitGutter",
         "Handlebars",
+        "LESS",
         "Material Theme",
         "Package Control",
         "PackageResourceViewer",
         "SideBarEnhancements",
         "SublimeLinter",
-        "SublimeLinter-contrib-scss-lint",
         "Syntax-highlighting-for-Sass"
     ],
     "repositories":
