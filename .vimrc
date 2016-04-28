@@ -7,9 +7,10 @@ call plug#begin('~/.vim/plugged')
 " tools
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
-Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'Yggdroot/indentLine'
 Plug 'editorconfig/editorconfig-vim'
 
