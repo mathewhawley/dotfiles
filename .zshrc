@@ -62,8 +62,8 @@ alias v="open -a 'MacVim'"
 # dotfiles
 alias dtf="cd ~/.dotfiles"
 alias omz="cd ~/.oh-my-zsh"
-alias zshc="v ~/.dotfiles/.zshrc"
-alias vrc="v ~/.dotfiles/.vimrc"
+alias zshc="subl ~/.dotfiles/.zshrc"
+alias vrc="subl ~/.dotfiles/.vimrc"
 
 # node
 alias ni="npm install"
