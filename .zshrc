@@ -1,6 +1,5 @@
 export ZSH=$HOME/.oh-my-zsh
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export EDITOR="MacVim"
 export GREP_OPTIONS="--color=auto"
 ZSH_THEME="custom"
 
