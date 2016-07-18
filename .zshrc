@@ -1,6 +1,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GREP_OPTIONS="--color=auto"
+export EDITOR="subl"
 ZSH_THEME="custom"
 
 # load nvm
