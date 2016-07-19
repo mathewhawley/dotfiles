@@ -18,6 +18,8 @@ alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias simple="python -m SimpleHTTPServer 3000"
 alias h="history"
 alias ngk="ngrok http"
+alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder"
+alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder"
 
 #applications
 alias firefox="open -a firefox"
