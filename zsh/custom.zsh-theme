@@ -1,4 +1,4 @@
-PROMPT='%{$fg[green]%}%n%{$reset_color%} at %{$fg[green]%}%m%{$reset_color%} in %{$fg[blue]%}${PWD/#$HOME/~}%{$reset_color%} $(git_prompt_info)
+PROMPT='%{$fg[green]%}%n%{$reset_color%} at %{$fg[green]%}%m%{$reset_color%} in %{$fg_bold[blue]%}${PWD/#$HOME/~}%{$reset_color%} $(git_prompt_info)
 %{$fg[white]%}$ %{$reset_color%}'
 RPROMPT='%{$fg[white]%}%*%{$reset_color%}'
 
