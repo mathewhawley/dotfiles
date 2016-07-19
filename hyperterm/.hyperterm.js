@@ -22,7 +22,11 @@ module.exports = {
     css: '',
 
     // custom css to embed in the terminal window
-    termCSS: '',
+    termCSS: `
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    `,
 
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '0 8px 8px',
