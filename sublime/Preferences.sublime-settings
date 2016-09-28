@@ -1,53 +1,53 @@
 {
-  "always_show_minimap_viewport": true,
-  "binary_file_patterns":
-  [
-    "dist/*",
-    "node_modules/*",
-    "bower_components/*",
-    "*.jpg",
-    "*.jpeg",
-    "*.png",
-    "*.gif",
-    "*.ttf",
-    "*.ico",
-    "*.eot",
-    "*.pdf",
-    "*.swf",
-    "*.jar",
-    "*.zip"
-  ],
-  "caret_style": "phase",
-  "color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme.tmTheme",
-  "font_face": "Roboto Mono Light",
-  "font_size": 11,
-  "highlight_active_indent_guide": true,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "hot_exit": false,
-  "ignored_packages":
-  [
-    "JavaScript",
-    "Vintage"
-  ],
-  "indent_guide_options":
-  [
-    "draw_normal",
-    "draw_active"
-  ],
-  "line_padding_bottom": 2,
-  "line_padding_top": 1,
-  "material_theme_compact_sidebar": true,
-  "material_theme_panel_separator": true,
-  "material_theme_small_statusbar": true,
-  "material_theme_small_tab": true,
-  "rulers":
-  [
-    100
-  ],
-  "scroll_past_end": true,
-  "tab_size": 4,
-  "theme": "Material-Theme.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "word_wrap": true
+	"always_show_minimap_viewport": true,
+	"binary_file_patterns":
+	[
+		"dist/*",
+		"node_modules/*",
+		"bower_components/*",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"caret_style": "phase",
+	"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme.tmTheme",
+	"font_face": "Roboto Mono Light",
+	"font_size": 11,
+	"highlight_active_indent_guide": true,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"JavaScript",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 1,
+	"material_theme_compact_sidebar": true,
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"rulers":
+	[
+		100
+	],
+	"scroll_past_end": true,
+	"tab_size": 4,
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true
 }
