@@ -1,27 +1,26 @@
 {
-  "bootstrapped": true,
-  "in_process_packages":
-  [
-  ],
-  "installed_packages":
-  [
-    "Babel",
-    "EditorConfig",
-    "Emmet",
-    "GitGutter",
-    "Handlebars",
-    "LESS",
-    "Material Theme",
-    "Package Control",
-    "PackageResourceViewer",
-    "SideBarEnhancements",
-    "SublimeLinter",
-    "SublimeLinter-contrib-eslint",
-    "Syntax-highlighting-for-Sass"
-  ],
-  "repositories":
-  [
-    "https://github.com/i-akhmadullin/Sublime-CSS3",
-    "https://github.com/P233/Syntax-highlighting-for-Sass"
-  ]
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"EditorConfig",
+		"Emmet",
+		"GitGutter",
+		"Handlebars",
+		"LESS",
+		"Material Theme",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Syntax-highlighting-for-Sass"
+	],
+	"repositories":
+	[
+		"https://github.com/i-akhmadullin/Sublime-CSS3",
+		"https://github.com/P233/Syntax-highlighting-for-Sass"
+	]
 }
