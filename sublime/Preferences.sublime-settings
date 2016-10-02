@@ -36,7 +36,7 @@
 		"draw_active"
 	],
 	"line_padding_bottom": 2,
-	"line_padding_top": 1,
+	"line_padding_top": 2,
 	"material_theme_compact_sidebar": true,
 	"material_theme_panel_separator": true,
 	"material_theme_small_statusbar": true,
