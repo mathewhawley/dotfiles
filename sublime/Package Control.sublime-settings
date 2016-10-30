@@ -16,7 +16,8 @@
 		"PackageResourceViewer",
 		"SideBarEnhancements",
 		"SublimeLinter",
-		"Syntax-highlighting-for-Sass"
+		"Syntax-highlighting-for-Sass",
+		"zz File Icons"
 	],
 	"repositories":
 	[
