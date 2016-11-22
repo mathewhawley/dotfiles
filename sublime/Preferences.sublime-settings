@@ -19,7 +19,7 @@
 		"*.hot-update.js"
 	],
 	"caret_style": "phase",
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"color_scheme": "Packages/ayu/ayu-mirage.tmTheme",
 	"font_face": "Roboto Mono Light",
 	"font_size": 11,
 	"highlight_active_indent_guide": true,
@@ -48,7 +48,9 @@
 	],
 	"scroll_past_end": true,
 	"tab_size": 2,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "ayu-mirage.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"ui_font_size_small": true,
+	"ui_fix_tab_labels": true
 }
