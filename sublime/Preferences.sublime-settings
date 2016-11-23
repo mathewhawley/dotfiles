@@ -19,9 +19,13 @@
 		"*.hot-update.js"
 	],
 	"caret_style": "phase",
-	"color_scheme": "Packages/ayu/ayu-mirage.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"font_face": "Roboto Mono Light",
 	"font_size": 11,
+	"font-options": [
+		"gray_antialias",
+		"subpixel_antialias"
+	],
 	"highlight_active_indent_guide": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -42,13 +46,14 @@
 	"material_theme_panel_separator": true,
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
+	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
 		100
 	],
 	"scroll_past_end": true,
 	"tab_size": 2,
-	"theme": "ayu-mirage.sublime-theme",
+	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true,
 	"ui_font_size_small": true,

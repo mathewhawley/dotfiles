@@ -10,7 +10,7 @@ echo "Creating Vim temporary directories..."
 mkdir -pv ~/.vim/swaps ~/.vim/backups ~/.vim/undo
 echo "Done."
 
-# make backups
+# # make backups
 echo "Backing up '.vimrc' and '.zshrc'..."
 cp -nv ~/.vimrc ~/.vimrc-old
 cp -nv ~/.zshrc ~/.zshrc-old
@@ -25,6 +25,7 @@ ln -sfv $BASE/.gitignore_global ~/.gitignore_global
 ln -sfv $BASE/.gitconfig ~/.gitconfig
 ln -sfv $BASE/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ln -sfv $BASE/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+ln -sfv $BASE/sublime/Material-Theme.sublime-theme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ln -sfv $BASE/hyperterm/.hyperterm.js ~/.hyperterm.js
 ln -sfv $BASE/hyperterm/.hyperterm_plugins ~/.hyperterm_plugins
 echo "Done."
