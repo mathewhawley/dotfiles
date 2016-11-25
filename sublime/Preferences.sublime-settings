@@ -20,12 +20,13 @@
 	],
 	"caret_style": "phase",
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-	"font_face": "Roboto Mono Light",
-	"font_size": 11,
-	"font-options": [
+	"font-options":
+	[
 		"gray_antialias",
 		"subpixel_antialias"
 	],
+	"font_face": "Roboto Mono Light",
+	"font_size": 11,
 	"highlight_active_indent_guide": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -54,7 +55,7 @@
 	"tab_size": 2,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"word_wrap": true,
+	"ui_fix_tab_labels": true,
 	"ui_font_size_small": true,
-	"ui_fix_tab_labels": true
+	"word_wrap": true
 }
