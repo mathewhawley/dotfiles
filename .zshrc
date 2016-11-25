@@ -1,5 +1,5 @@
 export ZSH=$HOME/.oh-my-zsh
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/.yarn/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GREP_OPTIONS="--color=auto"
 export EDITOR="subl"
 
