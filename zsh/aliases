@@ -1,4 +1,4 @@
-# general
+# General
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias simple="python -m SimpleHTTPServer 3000"
 alias h="history"
@@ -6,7 +6,7 @@ alias ngk="ngrok http"
 alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder"
 alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder"
 
-#applications
+# Applications
 alias firefox="open -a firefox"
 alias safari="open -a safari"
 alias chrome="open -a google\ chrome"
@@ -16,7 +16,7 @@ alias canary="open -a google\ chrome\ canary"
 alias opera="open -a opera"
 alias sim="open -a Simulator"
 
-# git
+# Git
 alias gco="git checkout"
 alias gcob="git checkout -b"
 alias gb="git branch"
@@ -38,22 +38,22 @@ alias gs="git status"
 alias gst="git stash"
 alias gstp="git stash pop"
 
-# vagrant
+# Vagrant
 alias vgs="vagrant ssh"
 alias vgu="vagrant up"
 alias vgh="vagrant halt"
 
-# editors
+# Editors
 alias subl="open -a 'Sublime Text'"
 alias v="open -a 'MacVim'"
 
-# dotfiles
+# Dotfiles
 alias dtf="cd ~/.dotfiles"
 alias omz="cd ~/.oh-my-zsh"
 alias zshc="subl ~/.dotfiles/.zshrc"
 alias vrc="subl ~/.dotfiles/.vimrc"
 
-# node
+# Node
 alias ni="npm install"
 alias nis="npm install --save"
 alias nisd="npm install --save-dev"

@@ -2,21 +2,23 @@
 
 BASE=$(pwd)
 
-# get permissions
+source ./lib/echoes
+
+# Get permissions
 sudo -v
 
-# make temp file directories for vim
-echo "Creating Vim temporary directories..."
+# Make temp file directories for vim
+run "Creating Vim temporary directories..."
 mkdir -pv ~/.vim/swaps ~/.vim/backups ~/.vim/undo
 echo "Done."
 
-# # make backups
+# Make backups
 echo "Backing up '.vimrc' and '.zshrc'..."
 cp -nv ~/.vimrc ~/.vimrc-old
 cp -nv ~/.zshrc ~/.zshrc-old
 echo "Done."
 
-# create symlinks
+# Create symlinks
 echo "Creating symlinks..."
 ln -sfv $BASE/.vimrc ~/.vimrc
 ln -sfv $BASE/zsh/custom.zsh-theme ~/.oh-my-zsh/themes
