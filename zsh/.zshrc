@@ -10,12 +10,6 @@ export GREP_OPTIONS="--color=auto"
 # Default editor
 export EDITOR=subl
 
-# Set ZSH theme
-ZSH_THEME="custom"
-
-# Load oh-my-zsh
-source $ZSH/oh-my-zsh.sh
-
 # Load NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
@@ -23,5 +17,11 @@ export NVM_DIR="$HOME/.nvm"
 # Load fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# Load oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
 # Load CLI aliases
 source ~/.dotfiles/zsh/aliases
+
+# Load prompt config
+source ~/.dotfiles/zsh/prompt

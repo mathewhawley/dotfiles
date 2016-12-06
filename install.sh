@@ -1,8 +1,6 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
 BASE=$(pwd)
-
-source ./lib/echoes
 
 # Get permissions
 sudo -v
@@ -18,14 +16,13 @@ cp -nv ~/.vimrc ~/.vimrc-old
 cp -nv ~/.zshrc ~/.zshrc-old
 echo "Done."
 
-# Create symlinks
+Create symlinks
 echo "Creating symlinks..."
-ln -sfv $BASE/.vimrc ~/.vimrc
-ln -sfv $BASE/zsh/custom.zsh-theme ~/.oh-my-zsh/themes
-ln -sfv $BASE/.zshrc ~/.zshrc
-ln -sfv $BASE/.gitignore_global ~/.gitignore_global
-ln -sfv $BASE/.gitconfig ~/.gitconfig
-ln -sfv $BASE/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-ln -sfv $BASE/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-ln -sfv $BASE/sublime/Material-Theme.sublime-theme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+ln -sf $BASE/vim/.vimrc ~/.vimrc
+ln -sf $BASE/zsh/.zshrc ~/.zshrc
+ln -sf $BASE/git/.gitignore_global ~/.gitignore_global
+ln -sf $BASE/git/.gitconfig ~/.gitconfig
+ln -sf $BASE/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+ln -sf $BASE/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+ln -sf $BASE/sublime/Material-Theme.sublime-theme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 echo "Done."
