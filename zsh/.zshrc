@@ -10,12 +10,18 @@ export GREP_OPTIONS="--color=auto"
 # Default editor
 export EDITOR=subl
 
-# Load NVM
+# Set NVM directory
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+# Load NVM
+if [[ -f "$NVM_DIR/nvm.sh" ]]; then
+  . "$NVM_DIR/nvm.sh"
+fi
 
 # Load fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+if [[ -f ~/.fzf.zsh ]]; then
+  source ~/.fzf.zsh
+fi
 
 # Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
