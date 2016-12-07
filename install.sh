@@ -18,7 +18,7 @@ task "Checking for Xcode installation"
 xcode-select -p > /dev/null 2>&1
 if [[ $? != 0 ]];  then
   warn "You don't seem to have Xcode installed. Please install this before continuing"
-  error "Xcode not installed. Ending process."
+  error "Xcode not installed."
   exit 1
 else
   ok

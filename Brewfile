@@ -13,6 +13,7 @@ brew 'git'
 brew 'yarn'
 brew 'mongodb'
 brew 'fzf'
+brew 'tree'
 
 # Apps
 
@@ -51,4 +52,3 @@ cask 'font-inconsolata-dz'
 cask 'font-inconsolata-dz-for-powerline'
 cask 'font-inconsolata-lgc'
 cask 'font-inconsolata-g-for-powerline'
-
