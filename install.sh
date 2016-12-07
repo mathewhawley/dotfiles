@@ -35,7 +35,7 @@ fi
 
 # Install Homebrew packages and apps
 task "Installing Homebrew packages and apps"
-brew bundle
+brew bundle --verbose
 ok
 
 # Clean up outdated/cached files
@@ -62,7 +62,11 @@ fi
 task "Checking for '.gitlocal'"
 if ! [[ -f ~/.gitlocal ]]; then
   warn "It seems you don't have a '.gitlocal' set up yet"
-  update_git_local
+  prompt "Would you like to create a new '.gitlocal'? [y|N]"
+  read response
+  if [[ $response =~ ^(y|yes|Y) ]]; then
+    update_git_local
+  fi
 else
   prompt "Would you like to edit your existing '.gitlocal'? [y|N]"
   read response
