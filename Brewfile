@@ -33,9 +33,21 @@ cask 'sketch'
 cask 'slack'
 cask 'spotify'
 cask 'spectacle'
+
+# Fonts
+
 cask 'font-roboto-mono'
 cask 'font-roboto-mono-for-powerline'
 cask 'font-roboto'
 cask 'font-noto-sans'
 cask 'font-noto-mono'
 cask 'font-noto-serif'
+cask 'font-source-code-pro'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-inconsolata'
+cask 'font-inconsolata-for-powerline'
+cask 'font-inconsolata-dz'
+cask 'font-inconsolata-dz-for-powerline'
+cask 'font-inconsolata-lgc'
+cask 'font-inconsolata-g-for-powerline'
+
