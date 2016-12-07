@@ -33,6 +33,7 @@ cask 'sketch'
 cask 'slack'
 cask 'spotify'
 cask 'spectacle'
+cask 'yujitach-menumeters'
 
 # Fonts
 
