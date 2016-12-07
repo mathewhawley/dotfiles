@@ -30,6 +30,7 @@ if [[ $? != 0 ]]; then
     error "Unable to install Homebrew"
     exit 1
   fi
+  ok
 fi
 
 # Install Homebrew packages and apps
