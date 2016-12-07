@@ -17,10 +17,6 @@ function ok() {
   echo -e "${COL_GREEN}[$(date +"%T")] Done.${COL_RESET}"
 }
 
-function bot() {
-  echo -e "${COL_BLUE}[$(date +"%T")] $1${COL_RESET}"
-}
-
 function error() {
   echo -e "${COL_RED}[$(date +"%T")] Error: $1${COL_RESET}"
 }

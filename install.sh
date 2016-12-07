@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Get permissions
-sudo -v
-
 # Load functions
 source ./bin/echoes
 source ./bin/helpers
@@ -90,7 +87,7 @@ ok
 task "Checking login shell is set to ZSH"
 CURRENT_SHELL=$(dscl . -read /Users/$USER UserShell | awk '{print $2}')
 if [[ "$CURRENT_SHELL" != "/usr/local/bin/zsh" ]]; then
-  task "Setting newer Homebrew ZSH (/usr/local/bin/zsh) as your shell"
+  task "Setting newer Homebrew ZSH (/usr/local/bin/zsh) as your shell (password required)"
   sudo dscl . -change /Users/$USER UserShell $SHELL /usr/local/bin/zsh > /dev/null 2>&1
 fi
 ok
