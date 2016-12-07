@@ -86,5 +86,14 @@ ln -sf $(pwd)/sublime/Package\ Control.sublime-settings ~/Library/Application\ S
 ln -sf $(pwd)/sublime/Material-Theme.sublime-theme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ok
 
+# Change shell to Homebrew ZSH
+task "Checking login shell is set to ZSH"
+CURRENT_SHELL=$(dscl . -read /Users/$USER UserShell | awk '{print $2}')
+if [[ "$CURRENT_SHELL" != "/usr/local/bin/zsh" ]]; then
+  task "Setting newer Homebrew ZSH (/usr/local/bin/zsh) as your shell"
+  sudo dscl . -change /Users/$USER UserShell $SHELL /usr/local/bin/zsh > /dev/null 2>&1
+fi
+ok
+
 # Finish
 callout "Complete! (${SECONDS}s)"

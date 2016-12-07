@@ -12,6 +12,7 @@ brew 'zsh'
 brew 'git'
 brew 'yarn'
 brew 'mongodb'
+brew 'fzf'
 
 # Apps
 

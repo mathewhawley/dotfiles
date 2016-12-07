@@ -19,5 +19,7 @@ require $ZSH/oh-my-zsh.sh
 require ~/.dotfiles/zsh/prompt
 # Load NVM
 require "$NVM_DIR/nvm.sh"
+# Load fzf
+require ~/.fzf.zsh
 # Load aliases
 require ~/.dotfiles/zsh/aliases

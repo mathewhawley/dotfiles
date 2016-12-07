@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-source ./echoes
-
 function require() {
   [[ -f $1 ]] && source $1
 }
