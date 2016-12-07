@@ -33,6 +33,11 @@ if [[ $? != 0 ]]; then
   ok
 fi
 
+# Update Homebrew
+task "Updating Homebrew"
+brew update --verbose
+ok
+
 # Install Homebrew packages and apps
 task "Installing Homebrew packages and apps"
 brew bundle --verbose
