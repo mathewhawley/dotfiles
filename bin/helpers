@@ -1,5 +1,18 @@
 #!/usr/bin/env bash
 
+source ./echoes
+
 function require() {
   [[ -f $1 ]] && source $1
+}
+
+function update_git_local() {
+  prompt "What is your name?"
+  read -r name
+  prompt "What is your email address?"
+  read -r email
+  task "Updating '.gitlocal'"
+  git config -f ~/.gitlocal user.name "${name}"
+  git config -f ~/.gitlocal user.email "${email}"
+  ok
 }
