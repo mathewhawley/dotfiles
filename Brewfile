@@ -35,6 +35,7 @@ cask 'slack'
 cask 'spotify'
 cask 'spectacle'
 cask 'yujitach-menumeters'
+cask 'macdown'
 
 # Fonts
 
