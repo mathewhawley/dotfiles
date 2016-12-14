@@ -37,6 +37,7 @@ cask 'spectacle'
 cask 'yujitach-menumeters'
 cask 'macdown'
 cask 'virtualbox'
+cask 'recordit'
 
 # Fonts
 
