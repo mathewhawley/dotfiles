@@ -19,7 +19,6 @@ brew 'tree'
 
 tap 'caskroom/cask'
 tap 'caskroom/versions'
-tap 'caskroom/fonts'
 
 cask 'google-chrome'
 cask 'google-chrome-canary'
@@ -40,6 +39,8 @@ cask 'virtualbox'
 cask 'recordit'
 
 # Fonts
+
+tap 'caskroom/fonts'
 
 cask 'font-roboto-mono'
 cask 'font-roboto-mono-for-powerline'
