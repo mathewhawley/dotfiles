@@ -18,6 +18,7 @@ if [[ $? != 0 ]];  then
   error "Xcode not installed."
   exit 1
 else
+  gcc --version
   ok
 fi
 
@@ -36,6 +37,11 @@ fi
 # Update Homebrew
 task "Updating Homebrew"
 brew update --verbose
+ok
+
+# Update packages/apps
+task "Updating packages/apps"
+brew upgrade
 ok
 
 # Install Homebrew packages and apps
