@@ -84,7 +84,7 @@ fi
 
 # Install oh-my-zsh
 task "Installing oh-my-zsh"
-if [[ -f $HOME/.oh-my-zsh ]]; then
+if ! [[ -d $HOME/.oh-my-zsh ]]; then
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   ok "Done."
 else
