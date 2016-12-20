@@ -14,7 +14,7 @@ function task() {
 }
 
 function ok() {
-  echo -e "${COL_GREEN}[$(date +"%T")] Done.${COL_RESET}"
+  echo -e "${COL_GREEN}[$(date +"%T")] $1${COL_RESET}"
 }
 
 function error() {

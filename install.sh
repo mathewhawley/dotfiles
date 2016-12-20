@@ -5,7 +5,7 @@ source ./bin/echoes
 source ./bin/helpers
 
 # Start timer
-SECONDS=0;
+SECONDS=0
 
 # Begin script
 callout "Environment configuration"
@@ -19,41 +19,43 @@ if [[ $? != 0 ]];  then
   exit 1
 else
   gcc --version
-  ok
+  ok "Already installed."
 fi
 
 # Handle Homebrew install/update
 command -v brew > /dev/null 2>&1
+task "Installing Homebrew"
 if [[ $? != 0 ]]; then
-  task "Installing Homebrew"
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   if [[ $? != 0 ]]; then
     error "Unable to install Homebrew"
     exit 1
   fi
-  ok
+  ok "Done."
+else
+  ok "Already installed."
 fi
 
 # Update Homebrew
 task "Updating Homebrew"
 brew update --verbose
-ok
+ok "Done."
 
 # Update packages/apps
 task "Updating packages/apps"
 brew upgrade
-ok
+ok "Done."
 
 # Install Homebrew packages and apps
 task "Installing Homebrew packages and apps"
 brew bundle --verbose
-ok
+ok "Done."
 
 # Clean up outdated/cached files
 task "Cleaning up Homebrew"
 brew cleanup
 brew cask cleanup
-ok
+ok "Done."
 
 # Install NVM
 task "Checking for NVM installation"
@@ -61,12 +63,32 @@ command -v nvm > /dev/null 2>&1
 if [[ $? = 0 ]]; then
   task "Installing NVM"
   curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-  ok
+  ok "Done."
   task "Installing latest version of Node"
   nvm install node
-  ok
+  ok "Done."
 else
-  ok
+  ok "Already installed."
+fi
+
+# Change shell to Homebrew ZSH
+task "Change default shell to ZSH"
+CURRENT_SHELL=$(dscl . -read /Users/$USER UserShell | awk '{print $2}')
+if [[ "$CURRENT_SHELL" != "/usr/local/bin/zsh" ]]; then
+  task "Setting newer Homebrew ZSH (/usr/local/bin/zsh) as your shell (password required)"
+  sudo dscl . -change /Users/$USER UserShell $SHELL /usr/local/bin/zsh > /dev/null 2>&1
+  ok "Done."
+else
+  ok "Already set."
+fi
+
+# Install oh-my-zsh
+task "Installing oh-my-zsh"
+if [[ -f $HOME/.oh-my-zsh ]]; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  ok "Done."
+else
+  ok "Already installed."
 fi
 
 # Create symlinks
@@ -77,25 +99,7 @@ ln -sf $(pwd)/git/.gitconfig ~/.gitconfig
 ln -sf $(pwd)/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ln -sf $(pwd)/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ln -sf $(pwd)/sublime/Material-Theme.sublime-theme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-ok
-
-# Change shell to Homebrew ZSH
-task "Checking login shell is set to ZSH"
-CURRENT_SHELL=$(dscl . -read /Users/$USER UserShell | awk '{print $2}')
-if [[ "$CURRENT_SHELL" != "/usr/local/bin/zsh" ]]; then
-  task "Setting newer Homebrew ZSH (/usr/local/bin/zsh) as your shell (password required)"
-  sudo dscl . -change /Users/$USER UserShell $SHELL /usr/local/bin/zsh > /dev/null 2>&1
-else
-  zsh --version
-fi
-ok
-
-# Install oh-my-zsh
-task "Installing oh-my-zsh"
-if [[ -f $HOME/.oh-my-zsh ]]; then
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-fi
-ok
+ok "Done."
 
 # Set up .gitlocal
 task "Checking for '.gitlocal'"
