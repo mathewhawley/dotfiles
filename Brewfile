@@ -37,6 +37,7 @@ cask 'yujitach-menumeters'
 cask 'macdown'
 cask 'virtualbox'
 cask 'recordit'
+cask 'google-drive'
 
 # Fonts
 
