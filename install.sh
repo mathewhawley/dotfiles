@@ -69,26 +69,6 @@ else
   ok
 fi
 
-# Set up .gitlocal
-task "Checking for '.gitlocal'"
-if ! [[ -f ~/.gitlocal ]]; then
-  warn "It seems you don't have a '.gitlocal' set up yet"
-  prompt "Would you like to create a new '.gitlocal'? [y|N]"
-  read response
-  if [[ $response =~ ^(y|yes|Y) ]]; then
-    update_git_local
-  fi
-else
-  prompt "Would you like to edit your existing '.gitlocal'? [y|N]"
-  read response
-  if [[ $response =~ ^(y|yes|Y) ]]; then
-    echo ""
-    cat ~/.gitlocal
-    echo ""
-    update_git_local
-  fi
-fi
-
 # Create symlinks
 task "Creating config file symlinks"
 ln -sf $(pwd)/zsh/.zshrc ~/.zshrc
@@ -109,6 +89,33 @@ else
   zsh --version
 fi
 ok
+
+# Install oh-my-zsh
+task "Installing oh-my-zsh"
+if [[ -f $HOME/.oh-my-zsh ]]; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+fi
+ok
+
+# Set up .gitlocal
+task "Checking for '.gitlocal'"
+if ! [[ -f ~/.gitlocal ]]; then
+  warn "It seems you don't have a '.gitlocal' set up yet"
+  prompt "Would you like to create a new '.gitlocal'? [y|N]"
+  read response
+  if [[ $response =~ ^(y|yes|Y) ]]; then
+    update_git_local
+  fi
+else
+  prompt "Would you like to edit your existing '.gitlocal'? [y|N]"
+  read response
+  if [[ $response =~ ^(y|yes|Y) ]]; then
+    echo ""
+    cat ~/.gitlocal
+    echo ""
+    update_git_local
+  fi
+fi
 
 # Finish
 callout "Complete! (${SECONDS}s)"
