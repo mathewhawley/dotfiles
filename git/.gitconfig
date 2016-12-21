@@ -1,18 +1,18 @@
 [user]
-    name = Mathew Hawley
-    email = mathew@mathewhawley.com
+	name = Mathew Hawley
+	email = mathew@mathewhawley.com
 [core]
-    excludesfile = ~/.gitignore_global
-    editor = subl -n -w
+	excludesfile = ~/.gitignore_global
+	editor = subl -n -w
 [include]
-    path = ~/.gitlocal
+	path = ~/.gitlocal
 [url "https://github.com/"]
-    insteadOf = gh:
+	insteadOf = gh:
 [push]
-    default = simple
+	default = simple
 [color]
-    ui = true
+	ui = true
 [filter "lfs"]
-    clean = git-lfs clean %f
-    smudge = git-lfs smudge %f
-    required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true

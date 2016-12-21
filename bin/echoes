@@ -10,23 +10,23 @@ COL_MAGENTA=$ESC_SEQ"35;01m"
 COL_CYAN=$ESC_SEQ"36;01m"
 
 function task() {
-  echo -e "${COL_YELLOW}[$(date +"%T")] $1...${COL_RESET}"
+	echo -e "${COL_YELLOW}[$(date +"%T")] $1...${COL_RESET}"
 }
 
 function ok() {
-  echo -e "${COL_GREEN}[$(date +"%T")] $1${COL_RESET}"
+	echo -e "${COL_GREEN}[$(date +"%T")] $1${COL_RESET}"
 }
 
 function error() {
-  echo -e "${COL_RED}[$(date +"%T")] Error: $1${COL_RESET}"
+	echo -e "${COL_RED}[$(date +"%T")] Error: $1${COL_RESET}"
 }
 
 function prompt() {
-  echo -en "${COL_BLUE}[$(date +"%T")] $1${COL_RESET} "
+	echo -en "${COL_BLUE}[$(date +"%T")] $1${COL_RESET} "
 }
 
 function warn() {
-  echo -e "${COL_MAGENTA}[$(date +"%T")] Warning: $1${COL_RESET}"
+	echo -e "${COL_MAGENTA}[$(date +"%T")] Warning: $1${COL_RESET}"
 }
 
 function callout() {
