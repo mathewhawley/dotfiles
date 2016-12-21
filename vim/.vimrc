@@ -98,15 +98,15 @@ set modelines=1 " modeline at bottom of this file
 set breakindent " wrapped lines adhere to indentation
 
 function! <SID>StripTrailingWhitespaces()
-    " Preparation: save last search, and cursor position.
-    let _s=@/
-    let l = line(".")
-    let c = col(".")
-    " Do the business:
-    %s/\s\+$//e
-    " Clean up: restore previous search history, and cursor position
-    let @/=_s
-    call cursor(l, c)
+	" Preparation: save last search, and cursor position.
+	let _s=@/
+	let l = line(".")
+	let c = col(".")
+	" Do the business:
+	%s/\s\+$//e
+	" Clean up: restore previous search history, and cursor position
+	let @/=_s
+	call cursor(l, c)
 endfunction
 
 au BufWritePre *.hbs,*.js,*.scss,*.json,*.html,*.css,*.rb :call <SID>StripTrailingWhitespaces() " strip trailing whitespace on save
@@ -158,7 +158,7 @@ set virtualedit=all " enable movement into 'invalid' spaces
 set laststatus=2 " always show statusline
 
 if !exists('g:airline_symbols')
-    let g:airline_symbols = {}
+	let g:airline_symbols = {}
 endif
 
 let g:airline#extensions#tabline#enabled = 1 " show buffers
