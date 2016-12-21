@@ -23,8 +23,8 @@ else
 fi
 
 # Handle Homebrew install/update
-command -v brew > /dev/null 2>&1
 task "Installing Homebrew"
+command -v brew > /dev/null 2>&1
 if [[ $? != 0 ]]; then
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	if [[ $? != 0 ]]; then
