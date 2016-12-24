@@ -118,6 +118,7 @@ else
 		cat ~/.gitlocal
 		echo ""
 		update_git_local
+		ok "Done."
 	fi
 fi
 
