@@ -96,6 +96,7 @@ task "Creating config file symlinks"
 ln -sf $(pwd)/zsh/.zshrc ~/.zshrc
 ln -sf $(pwd)/git/.gitignore_global ~/.gitignore_global
 ln -sf $(pwd)/git/.gitconfig ~/.gitconfig
+ln -sf $(pwd)/hyper/.hyper.js ~/.hyper.js
 ln -sf $(pwd)/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ln -sf $(pwd)/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ln -sf $(pwd)/sublime/Material-Theme.sublime-theme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User

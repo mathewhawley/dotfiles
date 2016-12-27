@@ -38,6 +38,7 @@ cask 'macdown'
 cask 'virtualbox'
 cask 'recordit'
 cask 'google-drive'
+cask 'hyper'
 
 # Fonts
 
