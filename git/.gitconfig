@@ -3,7 +3,7 @@
 	email = mathew@mathewhawley.com
 [core]
 	excludesfile = ~/.gitignore_global
-	editor = subl -n -w
+	editor = code --wait
 [include]
 	path = ~/.gitlocal
 [url "https://github.com/"]
