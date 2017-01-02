@@ -11,7 +11,7 @@ export NVM_DIR="$HOME/.nvm"
 # Colourize GREP output
 export GREP_OPTIONS="--color=auto"
 # Default editor
-export EDITOR=subl
+export EDITOR=code
 
 # Load oh-my-zsh
 require $ZSH/oh-my-zsh.sh
