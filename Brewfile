@@ -42,6 +42,7 @@ cask 'virtualbox'
 cask 'recordit'
 cask 'google-drive'
 cask 'hyper'
+cask 'mamp'
 
 # Fonts
 
