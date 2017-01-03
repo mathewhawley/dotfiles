@@ -5,6 +5,8 @@ cask_args appdir: '/Applications'
 tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'homebrew/versions'
+tap 'homebrew/homebrew-php'
+tap 'homebrew/dupes'
 
 brew 'ruby'
 brew 'node'
@@ -14,6 +16,7 @@ brew 'yarn'
 brew 'mongodb'
 brew 'fzf'
 brew 'tree'
+brew 'php-version'
 
 # Apps
 

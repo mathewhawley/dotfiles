@@ -13,6 +13,8 @@ export GREP_OPTIONS="--color=auto"
 # Default editor
 export EDITOR=code
 
+# Load php-version
+source $(brew --prefix php-version)/php-version.sh
 # Load oh-my-zsh
 require $ZSH/oh-my-zsh.sh
 # Load prompt config
