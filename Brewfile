@@ -17,6 +17,7 @@ brew 'mongodb'
 brew 'fzf'
 brew 'tree'
 brew 'php-version'
+brew 'php71'
 
 # Apps
 
@@ -42,7 +43,6 @@ cask 'virtualbox'
 cask 'recordit'
 cask 'google-drive'
 cask 'hyper'
-cask 'mamp'
 
 # Fonts
 
