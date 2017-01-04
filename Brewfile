@@ -18,6 +18,7 @@ brew 'fzf'
 brew 'tree'
 brew 'php-version'
 brew 'php71'
+brew 'wp-cli'
 
 # Apps
 
