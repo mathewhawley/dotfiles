@@ -3,6 +3,7 @@ source ~/.dotfiles/bin/helpers
 
 # PATH
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=~/.composer/vendor/bin:$PATH
 # ZSH
 export ZSH=$HOME/.oh-my-zsh
 # NVM
