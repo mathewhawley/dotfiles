@@ -21,6 +21,7 @@ brew 'php71'
 brew 'wp-cli'
 brew 'composer'
 brew 'mariadb'
+brew 'wifi-password'
 
 # Apps
 
