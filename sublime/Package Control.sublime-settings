@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"ayu",
 		"Babel",
 		"EditorConfig",
@@ -17,8 +18,7 @@
 		"PackageResourceViewer",
 		"SideBarEnhancements",
 		"SublimeLinter",
-		"Syntax-highlighting-for-Sass",
-		"zz File Icons"
+		"Syntax-highlighting-for-Sass"
 	],
 	"repositories":
 	[
