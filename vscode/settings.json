@@ -14,6 +14,16 @@
     "editor.renderWhitespace": "boundary",
     "editor.tabSize": 2,
     "files.trimTrailingWhitespace": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/.next": true,
+        "**/_scripts": true,
+        "**/.tapestry": true,
+        "**/coverage": true,
+        "**/build": true,
+        "**/dist": true
+    },
     "slack.teamToken": "xoxp-2543375860-115521405474-119276849088-17bc65c58886fb8dce26f8d0b3caa90d",
     "slack.username": "mathewhawley",
     "window.zoomLevel": 0,
