@@ -1,10 +1,10 @@
 // Place your settings in this file to overwrite the default settings
 {
     "editor.dragAndDrop": true,
-    "editor.fontFamily": "'Roboto Mono', monospace",
+    "editor.fontFamily": "'SFMono-Regular', monospace",
     "editor.fontSize": 11,
-    "editor.fontWeight": "300",
-    "editor.lineHeight": 18,
+    "editor.fontWeight": "normal",
+    "editor.lineHeight": 19,
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
     "editor.rulers": [
@@ -29,6 +29,6 @@
     "slack.teamToken": "xoxp-2543375860-115521405474-119276849088-17bc65c58886fb8dce26f8d0b3caa90d",
     "slack.username": "mathewhawley",
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "Material",
     "workbench.iconTheme": "vs-minimal"
   }
