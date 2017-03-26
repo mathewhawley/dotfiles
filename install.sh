@@ -112,17 +112,17 @@ if ! [[ -f ~/.gitlocal ]]; then
 	if [[ $response =~ ^(y|yes|Y) ]]; then
 		update_git_local
 	fi
-else
-	prompt "Would you like to edit your existing '.gitlocal'? [y|N]"
-	read response
-	if [[ $response =~ ^(y|yes|Y) ]]; then
-		echo ""
-		cat ~/.gitlocal
-		echo ""
-		update_git_local
-		ok "Done."
-	fi
 fi
+	# prompt "Would you like to edit your existing '.gitlocal'? [y|N]"
+	# read response
+	# if [[ $response =~ ^(y|yes|Y) ]]; then
+	# 	echo ""
+	# 	cat ~/.gitlocal
+	# 	echo ""
+	# 	update_git_local
+	# 	ok "Done."
+	# fi
+# fi
 
 # Finish
 callout "Complete! (${SECONDS}s)"

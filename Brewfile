@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 cask_args appdir: '/Applications'
 
 # Packages
@@ -48,6 +50,7 @@ cask 'gitify'
 cask 'google-drive'
 cask 'hyper'
 cask 'sequel-pro'
+cask '1password'
 
 # Fonts
 
