@@ -1323,7 +1323,7 @@
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Disable Printing</key>
@@ -2578,7 +2578,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>0CE6B333-3462-43C1-860D-391D8CDA2ED1</string>
 	<key>NoSyncLastTipTime</key>
-	<real>511868782.75490397</real>
+	<real>512297018.95775801</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2653,6 +2653,9 @@
 		<string>0060</string>
 		<string>0061</string>
 		<string>0062</string>
+		<string>0063</string>
+		<string>0064</string>
+		<string>0065</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -2720,7 +2723,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-03-20T09:42:39Z</date>
+	<date>2017-04-03T08:33:33Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
