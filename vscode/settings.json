@@ -13,7 +13,9 @@
     "editor.cursorBlinking": "phase",
     "editor.renderWhitespace": "boundary",
     "editor.tabSize": 2,
+    "flow.useNPMPackagedFlow": true,
     "files.trimTrailingWhitespace": true,
+    "javascript.validate.enable": false,
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
