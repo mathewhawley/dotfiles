@@ -1,12 +1,17 @@
 # Include helper functions
 source ~/.dotfiles/bin/helpers
 
+# GO
+export GOPATH=$HOME/go
+
 # PATH
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=/usr/local/sbin:$PATH
-export PATH=~/.composer/vendor/bin:$PATH
+export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:~/.composer/vendor/bin
+export PATH=$PATH:$GOPATH/bin
+
 # ZSH
 export ZSH=$HOME/.oh-my-zsh
+
 # NVM
 export NVM_DIR="$HOME/.nvm"
 
