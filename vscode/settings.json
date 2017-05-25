@@ -5,13 +5,13 @@
     "editor.fontSize": 11,
     "editor.fontWeight": "normal",
     "editor.lineHeight": 19,
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.rulers": [
         100
     ],
     "editor.cursorBlinking": "phase",
-    "editor.renderWhitespace": "boundary",
+    "editor.renderIndentGuides": true,
     "editor.tabSize": 2,
     "flow.useNPMPackagedFlow": true,
     "files.trimTrailingWhitespace": true,
