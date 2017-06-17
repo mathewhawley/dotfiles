@@ -24,6 +24,7 @@ brew 'wp-cli'
 brew 'composer'
 brew 'mariadb'
 brew 'wifi-password'
+brew 'heroku'
 
 # Apps
 
