@@ -4,7 +4,6 @@
     "editor.fontFamily": "'SFMono-Light', 'Roboto Mono', monospace",
     "editor.fontSize": 11,
     "editor.fontWeight": "normal",
-    "editor.formatOnSave": true,
     "editor.lineHeight": 19,
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
