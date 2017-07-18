@@ -22,7 +22,6 @@ brew 'php-version'
 brew 'php71'
 brew 'wp-cli'
 brew 'composer'
-brew 'mariadb'
 brew 'wifi-password'
 brew 'heroku'
 
