@@ -93,7 +93,6 @@ fi
 
 # Create symlinks
 task "Creating config file symlinks"
-ln -sf $(pwd)/npm/.npmrc ~/.npmrc
 ln -sf $(pwd)/zsh/.zshrc ~/.zshrc
 ln -sf $(pwd)/git/.gitignore_global ~/.gitignore_global
 ln -sf $(pwd)/git/.gitconfig ~/.gitconfig
