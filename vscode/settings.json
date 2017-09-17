@@ -29,8 +29,6 @@
         "**/dist": true,
         "**/__tmp__": true
     },
-    "slack.teamToken": "xoxp-2543375860-115521405474-119276849088-17bc65c58886fb8dce26f8d0b3caa90d",
-    "slack.username": "mathewhawley",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Material",
     "workbench.iconTheme": "file-icons"
