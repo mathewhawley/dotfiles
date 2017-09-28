@@ -1,8 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     "editor.dragAndDrop": true,
-    "editor.fontFamily": "'SFMono-Light', 'Roboto Mono', monospace",
-    "editor.fontSize": 11,
+    "editor.fontSize": 12,
     "editor.fontWeight": "normal",
     "editor.lineHeight": 19,
     "editor.minimap.enabled": false,
@@ -30,6 +29,6 @@
         "**/__tmp__": true
     },
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Material",
-    "workbench.iconTheme": "file-icons"
-  }
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": null
+}
